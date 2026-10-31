@@ -1,0 +1,10 @@
+#+TITLE: Solar Battery Plan
+#+AUTHOR: Project Team
+
+* Overview & Project Aim
+The overall aim of the solar battery project is to harvest energy from a solar panel, safely store it in a rechargeable battery, and step up the voltage to provide a stable 5V power supply capable of charging a device.
+
+This is accomplished through three distinct stages, each with its own specific aim:
+- *Energy Harvesting Stage:* To provide a stabilised voltage from the solar panel to the rest of the circuit while preventing reverse current flow (back-charge) during the night.
+- *Charge Management Stage:* To ensure the battery receives a safe maximum voltage of around 3.6 volts to prevent overcharging.
+- *Power Delivery Stage:* To step up the voltage from 3.6 volts to a stable 5 volts in order to successfully charge a connected device.
